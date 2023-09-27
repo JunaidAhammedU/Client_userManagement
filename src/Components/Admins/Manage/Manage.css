@@ -1,0 +1,64 @@
+.manage-container{
+    margin-top: 130px;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.search{
+    position: absolute;
+    height: 30px;
+    width: 20%;
+    box-shadow: 1px 1px 1px #888 , -1px -1px 1px #fff;
+    background-color: #bdbdbd;
+    border-radius: 10px;
+    border: 0;
+    padding: 6px;
+    padding-left: 12px;
+    top: 80px;
+    right: 80px;
+}
+
+.add-users{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    box-shadow: 1px 1px 1px #888 , -1px -1px 1px #fff;
+    background-color: #bdbdbd;
+    border-radius: 10px;
+    border: 0;
+    padding: 12px;
+    cursor: pointer;
+    color: #494949;
+}
+
+.add-users:active{
+    box-shadow: none;
+}
+
+.search:focus{
+    outline: 0;
+}
+
+.manage-container .table .row{
+    width: auto;
+    height: auto;
+}
+
+.manage-container .table .row th , .manage-container .table .row td{
+    color: rgb(70, 70, 70);
+    font-weight: bolder;
+    text-align: center;
+    width: 100vw;
+    padding: 20px;
+    border: 1px solid rgb(124, 124, 124);
+    box-shadow: 1px 1px 1px #888 , -1px -1px 1px #fff;
+    border-radius: 10px;
+}
+
+.manage-container .admin-profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
